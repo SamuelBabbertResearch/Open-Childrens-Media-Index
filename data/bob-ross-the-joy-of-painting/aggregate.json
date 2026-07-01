@@ -1,0 +1,54 @@
+{
+  "show_name": "Bob Ross",
+  "episode_count": 2,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 750.15,
+    "median": 750.15,
+    "std": 738.17,
+    "min": 11.98,
+    "max": 1488.32
+  },
+  "cuts_per_min": {
+    "mean": 2.4845,
+    "median": 2.4845,
+    "std": 2.4845,
+    "min": 0.0,
+    "max": 4.969
+  },
+  "color_saturation_mean": {
+    "mean": 0.1671,
+    "median": 0.1671,
+    "std": 0.1671,
+    "min": 0.0,
+    "max": 0.3341
+  },
+  "motion_mean": {
+    "mean": 0.0282,
+    "median": 0.0282,
+    "std": 0.0282,
+    "min": 0.0,
+    "max": 0.0563
+  },
+  "flashing_events_per_min": {
+    "mean": 1.729,
+    "median": 1.729,
+    "std": 1.729,
+    "min": 0.0,
+    "max": 3.458
+  },
+  "audio_rms_mean": {
+    "mean": 0.015,
+    "median": 0.015,
+    "std": 0.0,
+    "min": 0.015,
+    "max": 0.015
+  },
+  "sensory_load_score": {
+    "mean": 0.0707,
+    "median": 0.0707,
+    "std": 0.0707,
+    "min": 0.0,
+    "max": 0.1415
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "show_name": "Spongebob Squarepants Season 1",
+  "episode_count": 10,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 3.9914,
+    "median": 4.151,
+    "std": 0.4065,
+    "min": 3.248,
+    "max": 4.429
+  },
+  "cuts_per_min": {
+    "mean": 15.1069,
+    "median": 14.3735,
+    "std": 1.6373,
+    "min": 13.458,
+    "max": 18.383
+  },
+  "color_saturation_mean": {
+    "mean": 0.5051,
+    "median": 0.5014,
+    "std": 0.0535,
+    "min": 0.4266,
+    "max": 0.5757
+  },
+  "motion_mean": {
+    "mean": 0.0605,
+    "median": 0.061,
+    "std": 0.0095,
+    "min": 0.0458,
+    "max": 0.0757
+  },
+  "flashing_events_per_min": {
+    "mean": 7.0254,
+    "median": 5.984,
+    "std": 3.4192,
+    "min": 2.858,
+    "max": 14.736
+  },
+  "audio_rms_mean": {
+    "mean": 0.049,
+    "median": 0.0506,
+    "std": 0.0117,
+    "min": 0.027,
+    "max": 0.0649
+  },
+  "sensory_load_score": {
+    "mean": 0.2953,
+    "median": 0.2429,
+    "std": 0.1504,
+    "min": 0.1941,
+    "max": 0.73
+  }
+}

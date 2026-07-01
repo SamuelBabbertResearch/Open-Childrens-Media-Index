@@ -1,0 +1,61 @@
+{
+  "show_name": "Evangelion",
+  "episode_count": 1,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 4.582,
+    "median": 4.582,
+    "std": 0.0,
+    "min": 4.582,
+    "max": 4.582
+  },
+  "cuts_per_min": {
+    "mean": 13.051,
+    "median": 13.051,
+    "std": 0.0,
+    "min": 13.051,
+    "max": 13.051
+  },
+  "color_saturation_mean": {
+    "mean": 0.4961,
+    "median": 0.4961,
+    "std": 0.0,
+    "min": 0.4961,
+    "max": 0.4961
+  },
+  "color_contrast_mean": {
+    "mean": 0.2132,
+    "median": 0.2132,
+    "std": 0.0,
+    "min": 0.2132,
+    "max": 0.2132
+  },
+  "motion_mean": {
+    "mean": 0.0561,
+    "median": 0.0561,
+    "std": 0.0,
+    "min": 0.0561,
+    "max": 0.0561
+  },
+  "flashing_events_per_min": {
+    "mean": 7.805,
+    "median": 7.805,
+    "std": 0.0,
+    "min": 7.805,
+    "max": 7.805
+  },
+  "audio_rms_mean": {
+    "mean": 0.0733,
+    "median": 0.0733,
+    "std": 0.0,
+    "min": 0.0733,
+    "max": 0.0733
+  },
+  "sensory_load_score": {
+    "mean": 0.2665,
+    "median": 0.2665,
+    "std": 0.0,
+    "min": 0.2665,
+    "max": 0.2665
+  }
+}

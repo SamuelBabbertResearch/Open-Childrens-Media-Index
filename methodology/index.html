@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology — Open Children's Media Index</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="site">
+<header>
+  <div class="site-name"><a href="/">Open Children's Media Index</a></div>
+  <nav><a href="/">Home</a> <a href="/shows/">Browse shows</a> <a href="/methodology/" class=active>Methodology</a> <a href="/tool/">The tool</a> <a href="/download/">Download data</a></nav>
+</header>
+<main>
+<h1>Methodology</h1>
+<p class="lead">All analysis is performed by the <a href="/tool/">Children's Media Analysis Toolkit (CMAT)</a>, an open-source Python application. Every result in this index is reproducible from the source video files using the parameters documented here.</p>
+
+<h2>Sampling protocol</h2>
+<p>The following parameters are held constant across all shows to ensure cross-show comparability:</p>
+<table class=meta><tbody>
+<tr><td>Frame sample rate</td><td>2 fps</td></tr>
+<tr><td>Sensory load preset</td><td>General / All Ages</td></tr>
+<tr><td>Flashing threshold</td><td>0.1 (luminance delta, 0–1 scale)</td></tr>
+<tr><td>Episode sample seed</td><td>42</td></tr>
+</tbody></table>
+<p>For shows with fewer than 15 episodes, all episodes are analyzed. For shows with 15–60 episodes, a spread sample of 10 is drawn. For shows with more than 60 episodes, a spread sample of 20 is drawn. "Spread" sampling selects episodes evenly distributed across the show's full run using CMAT's Episode Sampler.</p>
+<p>For long-running shows (20+ years or a significant production format change), the show is divided into named eras and each era is sampled independently.</p>
+
+<h2>Metric definitions</h2>
+<table>
+<thead><tr><th>Metric</th><th>Method</th><th>Unit</th></tr></thead>
+<tbody>
+<tr><td>Scene pacing</td><td>PySceneDetect content detection &rarr; cuts per minute</td><td>cuts / min</td></tr>
+<tr><td>Color saturation</td><td>Mean HSV S-channel across sampled frames</td><td>0–1</td></tr>
+<tr><td>Color contrast</td><td>Mean per-frame standard deviation of HSV V-channel</td><td>0–1</td></tr>
+<tr><td>Motion</td><td>Normalized mean absolute frame difference between consecutive samples</td><td>0–1 (approx)</td></tr>
+<tr><td>Flashing</td><td>Whole-frame mean luminance change events exceeding threshold between sampled frames</td><td>events / min</td></tr>
+<tr><td>Audio loudness</td><td>FFmpeg RMS loudness across audio track</td><td>0–1 (normalized)</td></tr>
+<tr><td>Sensory load score</td><td>Weighted composite of normalized sub-metrics using fixed reference ranges</td><td>0–1</td></tr>
+</tbody>
+</table>
+
+<h2>Sensory load composite</h2>
+<p>The sensory load score is a weighted sum of normalized sub-metrics. Normalization uses fixed reference ranges — not per-corpus normalization — so scores remain comparable across separate analysis runs and future additions to the index. The "General / All Ages" preset weights are used for all index entries. Full weight and normalization configurations are available in the <a href="https://github.com/SamuelBabbertResearch/childrens-media-analysis-toolkit">CMAT repository</a>.</p>
+
+<h2>Flashing detection note</h2>
+<p>The flashing metric measures whole-frame mean luminance change between sampled frames at 2 fps, with a detection ceiling of 1 transition per second. The medically relevant range for photosensitive epilepsy screening is 3–50 Hz. <strong>This metric is not a photosensitive epilepsy screen.</strong> A score of zero does not indicate safety; a non-zero score indicates detectable whole-frame brightness transitions useful for relative comparison across shows.</p>
+
+<h2>Research grounding</h2>
+<p>This index measures <em>formal features</em> of video (Huston &amp; Wright framework) — content-independent structural attributes that trigger the orienting response (Lang, LC4MP).</p>
+<ul>
+<li>Huston &amp; Wright — formal features framework</li>
+<li>Lang — Limited Capacity Model of Mediated Message Processing (LC4MP)</li>
+<li>Lillard &amp; Peterson (2011), <em>Pediatrics</em> — pacing and executive function in 4-year-olds</li>
+<li>Lillard et al. (2015) — fantastical content as a possible moderator</li>
+<li>Christakis et al. (2004), <em>Pediatrics</em> — early TV exposure and attention (correlational)</li>
+<li>Itti &amp; Koch — bottom-up visual saliency and motion</li>
+</ul>
+<p><strong>All findings are correlational.</strong> This tool measures the stimulus, not the viewer. Age, temperament, sensory-processing profile, and viewing dose are not captured.</p>
+</main>
+<footer>
+  Open Children's Media Index &nbsp;&middot;&nbsp;
+  Data and code on <a href="https://github.com/SamuelBabbertResearch/open-childrens-media-index">GitHub</a> &nbsp;&middot;&nbsp;
+  Built with <a href="https://github.com/SamuelBabbertResearch/childrens-media-analysis-toolkit">CMAT</a> &nbsp;&middot;&nbsp;
+  Updated June 2026
+</footer>
+</div>
+</body>
+</html>

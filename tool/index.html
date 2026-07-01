@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The tool — Open Children's Media Index</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="site">
+<header>
+  <div class="site-name"><a href="/">Open Children's Media Index</a></div>
+  <nav><a href="/">Home</a> <a href="/shows/">Browse shows</a> <a href="/methodology/">Methodology</a> <a href="/tool/" class=active>The tool</a> <a href="/download/">Download data</a></nav>
+</header>
+<main>
+<h1>The tool</h1>
+<p class="lead">The Open Children's Media Index is built with the <strong>Children's Media Analysis Toolkit (CMAT)</strong>, an open-source desktop application for analyzing the sensory load of video content.</p>
+<p>CMAT is a Windows desktop application that analyzes MP4 episodes of television shows and produces a sensory-load profile for each episode and a cumulative profile for an entire show. It measures formal and structural features of video — pacing, color, motion, audio — and does not issue a verdict on appropriateness. Every composite score shows its component parts.</p>
+<p>Source code, installation instructions, and full documentation:<br>
+<a href="https://github.com/SamuelBabbertResearch/childrens-media-analysis-toolkit">github.com/SamuelBabbertResearch/childrens-media-analysis-toolkit</a></p>
+
+<h2>How data enters this index</h2>
+<ol>
+<li>Video files are analyzed locally using CMAT with the parameters documented in <a href="/methodology/">Methodology</a>.</li>
+<li>Results are reviewed manually before publication. No data is published automatically.</li>
+<li>The site is regenerated from the reviewed cache and pushed to GitHub Pages.</li>
+</ol>
+<p>This manual review step is intentional. It ensures that no erroneously analyzed, mislabeled, or otherwise inappropriate content reaches the public index.</p>
+
+<h2>Reproducing the analysis</h2>
+<ol>
+<li>Install CMAT from the GitHub repository above.</li>
+<li>Obtain the same source video files.</li>
+<li>Run analysis with the parameters documented in <a href="/methodology/">Methodology</a>.</li>
+</ol>
+<p>Per-episode JSON results and show-level aggregate CSVs are available on the <a href="/download/">Download data</a> page.</p>
+</main>
+<footer>
+  Open Children's Media Index &nbsp;&middot;&nbsp;
+  Data and code on <a href="https://github.com/SamuelBabbertResearch/open-childrens-media-index">GitHub</a> &nbsp;&middot;&nbsp;
+  Built with <a href="https://github.com/SamuelBabbertResearch/childrens-media-analysis-toolkit">CMAT</a> &nbsp;&middot;&nbsp;
+  Updated June 2026
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "show_name": "Curious George Season One",
+  "episode_count": 5,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 3.9448,
+    "median": 3.837,
+    "std": 0.4368,
+    "min": 3.366,
+    "max": 4.626
+  },
+  "cuts_per_min": {
+    "mean": 15.3524,
+    "median": 15.593,
+    "std": 1.6747,
+    "min": 12.928,
+    "max": 17.785
+  },
+  "color_saturation_mean": {
+    "mean": 0.4229,
+    "median": 0.4534,
+    "std": 0.0708,
+    "min": 0.3246,
+    "max": 0.5001
+  },
+  "color_contrast_mean": {
+    "mean": 0.1888,
+    "median": 0.1908,
+    "std": 0.0062,
+    "min": 0.1785,
+    "max": 0.1973
+  },
+  "motion_mean": {
+    "mean": 0.0643,
+    "median": 0.0662,
+    "std": 0.0075,
+    "min": 0.0509,
+    "max": 0.0735
+  },
+  "flashing_events_per_min": {
+    "mean": 5.0698,
+    "median": 5.323,
+    "std": 1.0531,
+    "min": 3.338,
+    "max": 6.337
+  },
+  "audio_rms_mean": {
+    "mean": 0.0385,
+    "median": 0.0389,
+    "std": 0.0008,
+    "min": 0.0369,
+    "max": 0.0392
+  },
+  "sensory_load_score": {
+    "mean": 0.2281,
+    "median": 0.2178,
+    "std": 0.0171,
+    "min": 0.2124,
+    "max": 0.2555
+  }
+}

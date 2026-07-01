@@ -1,0 +1,61 @@
+{
+  "show_name": "Game Theory",
+  "episode_count": 4,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 5.2692,
+    "median": 4.865,
+    "std": 1.612,
+    "min": 3.468,
+    "max": 7.879
+  },
+  "cuts_per_min": {
+    "mean": 12.3255,
+    "median": 12.2675,
+    "std": 3.4163,
+    "min": 7.557,
+    "max": 17.21
+  },
+  "color_saturation_mean": {
+    "mean": 0.2789,
+    "median": 0.2625,
+    "std": 0.0758,
+    "min": 0.1916,
+    "max": 0.3991
+  },
+  "color_contrast_mean": {
+    "mean": 0.2222,
+    "median": 0.2229,
+    "std": 0.0223,
+    "min": 0.1918,
+    "max": 0.2512
+  },
+  "motion_mean": {
+    "mean": 0.0806,
+    "median": 0.0832,
+    "std": 0.006,
+    "min": 0.0704,
+    "max": 0.0857
+  },
+  "flashing_events_per_min": {
+    "mean": 12.883,
+    "median": 12.564,
+    "std": 1.6158,
+    "min": 10.962,
+    "max": 15.442
+  },
+  "audio_rms_mean": {
+    "mean": 0.0615,
+    "median": 0.0621,
+    "std": 0.0082,
+    "min": 0.05,
+    "max": 0.0717
+  },
+  "sensory_load_score": {
+    "mean": 0.2748,
+    "median": 0.2693,
+    "std": 0.0161,
+    "min": 0.2589,
+    "max": 0.3017
+  }
+}

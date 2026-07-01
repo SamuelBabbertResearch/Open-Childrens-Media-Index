@@ -1,0 +1,61 @@
+{
+  "show_name": "Arthur Season One",
+  "episode_count": 6,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 3.2803,
+    "median": 3.326,
+    "std": 0.1429,
+    "min": 3.041,
+    "max": 3.429
+  },
+  "cuts_per_min": {
+    "mean": 18.2898,
+    "median": 18.0045,
+    "std": 0.82,
+    "min": 17.462,
+    "max": 19.695
+  },
+  "color_saturation_mean": {
+    "mean": 0.5159,
+    "median": 0.517,
+    "std": 0.0343,
+    "min": 0.4492,
+    "max": 0.5573
+  },
+  "color_contrast_mean": {
+    "mean": 0.1835,
+    "median": 0.1824,
+    "std": 0.0089,
+    "min": 0.1715,
+    "max": 0.1967
+  },
+  "motion_mean": {
+    "mean": 0.0765,
+    "median": 0.076,
+    "std": 0.0054,
+    "min": 0.0695,
+    "max": 0.0857
+  },
+  "flashing_events_per_min": {
+    "mean": 7.7528,
+    "median": 7.8465,
+    "std": 0.5667,
+    "min": 6.747,
+    "max": 8.361
+  },
+  "audio_rms_mean": {
+    "mean": 0.0424,
+    "median": 0.0423,
+    "std": 0.0011,
+    "min": 0.0412,
+    "max": 0.0437
+  },
+  "sensory_load_score": {
+    "mean": 0.2547,
+    "median": 0.2517,
+    "std": 0.0074,
+    "min": 0.2466,
+    "max": 0.2679
+  }
+}

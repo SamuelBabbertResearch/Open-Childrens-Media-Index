@@ -1,0 +1,61 @@
+{
+  "show_name": "Franklin",
+  "episode_count": 6,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 4.572,
+    "median": 4.7015,
+    "std": 0.5002,
+    "min": 3.517,
+    "max": 5.039
+  },
+  "cuts_per_min": {
+    "mean": 13.2808,
+    "median": 12.7375,
+    "std": 1.7313,
+    "min": 11.873,
+    "max": 17.028
+  },
+  "color_saturation_mean": {
+    "mean": 0.4734,
+    "median": 0.5142,
+    "std": 0.0948,
+    "min": 0.2857,
+    "max": 0.5662
+  },
+  "color_contrast_mean": {
+    "mean": 0.2046,
+    "median": 0.2037,
+    "std": 0.0147,
+    "min": 0.1875,
+    "max": 0.2275
+  },
+  "motion_mean": {
+    "mean": 0.0653,
+    "median": 0.0645,
+    "std": 0.0047,
+    "min": 0.0589,
+    "max": 0.0732
+  },
+  "flashing_events_per_min": {
+    "mean": 5.4345,
+    "median": 5.005,
+    "std": 0.9429,
+    "min": 4.538,
+    "max": 7.084
+  },
+  "audio_rms_mean": {
+    "mean": 0.0417,
+    "median": 0.0259,
+    "std": 0.0347,
+    "min": 0.0251,
+    "max": 0.1194
+  },
+  "sensory_load_score": {
+    "mean": 0.2227,
+    "median": 0.2158,
+    "std": 0.0291,
+    "min": 0.1948,
+    "max": 0.2836
+  }
+}

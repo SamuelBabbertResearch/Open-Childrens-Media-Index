@@ -1,0 +1,61 @@
+{
+  "show_name": "Bluey",
+  "episode_count": 7,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 5.544,
+    "median": 5.159,
+    "std": 1.1564,
+    "min": 4.453,
+    "max": 8.135
+  },
+  "cuts_per_min": {
+    "mean": 11.0696,
+    "median": 11.489,
+    "std": 1.892,
+    "min": 7.234,
+    "max": 13.333
+  },
+  "color_saturation_mean": {
+    "mean": 0.3342,
+    "median": 0.3434,
+    "std": 0.0397,
+    "min": 0.2784,
+    "max": 0.3937
+  },
+  "color_contrast_mean": {
+    "mean": 0.183,
+    "median": 0.1795,
+    "std": 0.0125,
+    "min": 0.1705,
+    "max": 0.2117
+  },
+  "motion_mean": {
+    "mean": 0.0491,
+    "median": 0.0521,
+    "std": 0.0058,
+    "min": 0.0379,
+    "max": 0.0552
+  },
+  "flashing_events_per_min": {
+    "mean": 4.0286,
+    "median": 4.255,
+    "std": 1.5919,
+    "min": 1.56,
+    "max": 6.524
+  },
+  "audio_rms_mean": {
+    "mean": 0.0144,
+    "median": 0.0143,
+    "std": 0.0017,
+    "min": 0.0109,
+    "max": 0.0172
+  },
+  "sensory_load_score": {
+    "mean": 0.1619,
+    "median": 0.1651,
+    "std": 0.0145,
+    "min": 0.1303,
+    "max": 0.1799
+  }
+}

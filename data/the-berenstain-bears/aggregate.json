@@ -1,0 +1,61 @@
+{
+  "show_name": "The Bearstain Bears",
+  "episode_count": 3,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 4.0397,
+    "median": 3.702,
+    "std": 0.5764,
+    "min": 3.566,
+    "max": 4.851
+  },
+  "cuts_per_min": {
+    "mean": 15.057,
+    "median": 16.133,
+    "std": 1.9719,
+    "min": 12.291,
+    "max": 16.747
+  },
+  "color_saturation_mean": {
+    "mean": 0.3634,
+    "median": 0.3503,
+    "std": 0.0212,
+    "min": 0.3466,
+    "max": 0.3934
+  },
+  "color_contrast_mean": {
+    "mean": 0.1625,
+    "median": 0.1634,
+    "std": 0.0072,
+    "min": 0.1532,
+    "max": 0.1708
+  },
+  "motion_mean": {
+    "mean": 0.058,
+    "median": 0.0601,
+    "std": 0.0048,
+    "min": 0.0513,
+    "max": 0.0625
+  },
+  "flashing_events_per_min": {
+    "mean": 3.9177,
+    "median": 3.687,
+    "std": 0.8006,
+    "min": 3.073,
+    "max": 4.993
+  },
+  "audio_rms_mean": {
+    "mean": 0.0242,
+    "median": 0.0244,
+    "std": 0.0007,
+    "min": 0.0232,
+    "max": 0.0248
+  },
+  "sensory_load_score": {
+    "mean": 0.1856,
+    "median": 0.1901,
+    "std": 0.0152,
+    "min": 0.1651,
+    "max": 0.2015
+  }
+}

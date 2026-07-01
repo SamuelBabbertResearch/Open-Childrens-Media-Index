@@ -1,0 +1,61 @@
+{
+  "show_name": "iShowSpeed",
+  "episode_count": 6,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 15.1207,
+    "median": 6.536,
+    "std": 18.0306,
+    "min": 1.656,
+    "max": 52.637
+  },
+  "cuts_per_min": {
+    "mean": 14.747,
+    "median": 13.451,
+    "std": 12.5944,
+    "min": 1.105,
+    "max": 35.644
+  },
+  "color_saturation_mean": {
+    "mean": 0.4054,
+    "median": 0.3349,
+    "std": 0.1784,
+    "min": 0.2075,
+    "max": 0.6743
+  },
+  "color_contrast_mean": {
+    "mean": 0.2591,
+    "median": 0.2714,
+    "std": 0.0298,
+    "min": 0.2067,
+    "max": 0.2877
+  },
+  "motion_mean": {
+    "mean": 0.1378,
+    "median": 0.1451,
+    "std": 0.0493,
+    "min": 0.0539,
+    "max": 0.2128
+  },
+  "flashing_events_per_min": {
+    "mean": 13.1457,
+    "median": 8.272,
+    "std": 12.8939,
+    "min": 0.864,
+    "max": 37.426
+  },
+  "audio_rms_mean": {
+    "mean": 0.1763,
+    "median": 0.1657,
+    "std": 0.0806,
+    "min": 0.0578,
+    "max": 0.3258
+  },
+  "sensory_load_score": {
+    "mean": 0.4051,
+    "median": 0.379,
+    "std": 0.1401,
+    "min": 0.1907,
+    "max": 0.6346
+  }
+}

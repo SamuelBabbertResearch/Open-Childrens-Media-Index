@@ -1,0 +1,7 @@
+file,status,duration_sec,shot_length_mean_sec,shot_length_median_sec,shots_per_min,shot_count,cuts_per_min,shot_length_cv,color_saturation_mean,color_saturation_temporal_var,motion_mean,motion_peak,flashing_events_per_min,audio_rms_mean,audio_rms_peak,audio_rms_temporal_var,audio_dynamic_range_db,audio_available,sensory_load_score,sensory_load_audio_available,sensory_load_pacing,sensory_load_saturation,sensory_load_motion,sensory_load_flashing,sensory_load_audio
+Back to School with Franklin (2003 VHS).mp4,ok,2987.86,4.765,3.241,12.591,627,12.571,1.719,0.2857,0.0042,0.0619,0.5724,4.538,0.11937,0.35584,0.003449,9.49,True,0.2836,True,0.2095,0.2857,0.0619,0.1513,0.5968
+Franklin 1.mp4,ok,1804.14,3.517,2.536,17.061,513,17.028,0.97,0.4246,0.019,0.0732,0.8906,6.286,0.02865,0.05293,9e-05,5.33,True,0.2241,True,0.2838,0.4246,0.0732,0.2095,0.1432
+Franklin 2.mp4,ok,1804.14,4.638,3.337,12.937,389,12.904,1.077,0.4981,0.0134,0.0688,0.8155,4.722,0.0257,0.05289,8.2e-05,6.27,True,0.2102,True,0.2151,0.4981,0.0688,0.1574,0.1285
+Franklin 3.mp4,ok,1804.14,4.929,3.287,12.172,366,12.139,1.188,0.5304,0.0151,0.0637,0.7113,5.288,0.02534,0.04931,0.0001,5.78,True,0.2018,True,0.2023,0.5304,0.0637,0.1763,0.1267
+Franklin 4.mp4,ok,1804.14,5.039,3.487,11.906,358,11.873,1.067,0.5662,0.0205,0.0589,0.7806,4.689,0.02515,0.05348,0.000107,6.55,True,0.1948,True,0.1979,0.5662,0.0589,0.1563,0.1257
+Franklin 5.mp4,ok,1804.14,4.544,3.237,13.203,397,13.17,1.753,0.5357,0.015,0.0652,0.8102,7.084,0.02615,0.05544,6.2e-05,6.53,True,0.2215,True,0.2195,0.5357,0.0652,0.2361,0.1307

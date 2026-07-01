@@ -1,0 +1,61 @@
+{
+  "show_name": "Little Bear (Full Series)",
+  "episode_count": 65,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 4.5165,
+    "median": 4.404,
+    "std": 0.5543,
+    "min": 3.507,
+    "max": 5.606
+  },
+  "cuts_per_min": {
+    "mean": 13.441,
+    "median": 13.582,
+    "std": 1.6258,
+    "min": 10.662,
+    "max": 17.068
+  },
+  "color_saturation_mean": {
+    "mean": 0.3833,
+    "median": 0.3835,
+    "std": 0.0585,
+    "min": 0.2668,
+    "max": 0.5316
+  },
+  "color_contrast_mean": {
+    "mean": 0.1773,
+    "median": 0.1747,
+    "std": 0.0191,
+    "min": 0.1383,
+    "max": 0.2257
+  },
+  "motion_mean": {
+    "mean": 0.0537,
+    "median": 0.0531,
+    "std": 0.0069,
+    "min": 0.0402,
+    "max": 0.0704
+  },
+  "flashing_events_per_min": {
+    "mean": 4.6212,
+    "median": 4.546,
+    "std": 1.109,
+    "min": 2.607,
+    "max": 7.439
+  },
+  "audio_rms_mean": {
+    "mean": 0.0297,
+    "median": 0.029,
+    "std": 0.0047,
+    "min": 0.0203,
+    "max": 0.043
+  },
+  "sensory_load_score": {
+    "mean": 0.1921,
+    "median": 0.1903,
+    "std": 0.0159,
+    "min": 0.1533,
+    "max": 0.2275
+  }
+}
