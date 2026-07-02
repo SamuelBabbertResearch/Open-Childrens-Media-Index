@@ -1,0 +1,61 @@
+{
+  "show_name": "A Charlie Brown Christmas (1965)",
+  "episode_count": 1,
+  "failed_count": 0,
+  "shot_length_mean_sec": {
+    "mean": 9.322,
+    "median": 9.322,
+    "std": 0.0,
+    "min": 9.322,
+    "max": 9.322
+  },
+  "cuts_per_min": {
+    "mean": 6.397,
+    "median": 6.397,
+    "std": 0.0,
+    "min": 6.397,
+    "max": 6.397
+  },
+  "color_saturation_mean": {
+    "mean": 0.3721,
+    "median": 0.3721,
+    "std": 0.0,
+    "min": 0.3721,
+    "max": 0.3721
+  },
+  "color_contrast_mean": {
+    "mean": 0.196,
+    "median": 0.196,
+    "std": 0.0,
+    "min": 0.196,
+    "max": 0.196
+  },
+  "motion_mean": {
+    "mean": 0.0509,
+    "median": 0.0509,
+    "std": 0.0,
+    "min": 0.0509,
+    "max": 0.0509
+  },
+  "flashing_events_per_min": {
+    "mean": 1.845,
+    "median": 1.845,
+    "std": 0.0,
+    "min": 1.845,
+    "max": 1.845
+  },
+  "audio_rms_mean": {
+    "mean": 0.0085,
+    "median": 0.0085,
+    "std": 0.0,
+    "min": 0.0085,
+    "max": 0.0085
+  },
+  "sensory_load_score": {
+    "mean": 0.1317,
+    "median": 0.1317,
+    "std": 0.0,
+    "min": 0.1317,
+    "max": 0.1317
+  }
+}

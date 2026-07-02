@@ -104,6 +104,19 @@
     "flashing_per_min_mean": 3.9177
   },
   {
+    "display_name": "A Charlie Brown Christmas",
+    "category": "children",
+    "network": "CBS",
+    "years": "1965",
+    "audience_label": "All ages",
+    "episode_count": 1,
+    "sensory_load_mean": 0.1317,
+    "cuts_per_min_mean": 6.397,
+    "saturation_mean": 0.3721,
+    "motion_mean": 0.0509,
+    "flashing_per_min_mean": 1.845
+  },
+  {
     "display_name": "MrBeast",
     "category": "baseline",
     "network": "YouTube",
@@ -167,5 +180,83 @@
     "saturation_mean": 0.4961,
     "motion_mean": 0.0561,
     "flashing_per_min_mean": 7.805
+  },
+  {
+    "display_name": "Jordan Peterson",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": null,
+    "sensory_load_mean": null,
+    "cuts_per_min_mean": null,
+    "saturation_mean": null,
+    "motion_mean": null,
+    "flashing_per_min_mean": null
+  },
+  {
+    "display_name": "Little Bear",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": 5,
+    "sensory_load_mean": 0.4431,
+    "cuts_per_min_mean": 14.5734,
+    "saturation_mean": 0.3323,
+    "motion_mean": 0.0631,
+    "flashing_per_min_mean": 5.897
+  },
+  {
+    "display_name": "My Neighbor Totoro",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": null,
+    "sensory_load_mean": null,
+    "cuts_per_min_mean": null,
+    "saturation_mean": null,
+    "motion_mean": null,
+    "flashing_per_min_mean": null
+  },
+  {
+    "display_name": "Ghibili",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": null,
+    "sensory_load_mean": null,
+    "cuts_per_min_mean": null,
+    "saturation_mean": null,
+    "motion_mean": null,
+    "flashing_per_min_mean": null
+  },
+  {
+    "display_name": "Season 1",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": null,
+    "sensory_load_mean": null,
+    "cuts_per_min_mean": null,
+    "saturation_mean": null,
+    "motion_mean": null,
+    "flashing_per_min_mean": null
+  },
+  {
+    "display_name": "Season 2",
+    "category": "uncategorized",
+    "network": null,
+    "years": null,
+    "audience_label": null,
+    "episode_count": null,
+    "sensory_load_mean": null,
+    "cuts_per_min_mean": null,
+    "saturation_mean": null,
+    "motion_mean": null,
+    "flashing_per_min_mean": null
   }
 ]
